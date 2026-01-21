@@ -2,53 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="Style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Abc Z | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1> Welcom to my Page </h1>
-    <p>left MIS Executive | Excel | Power BI</p>
-</header>
+<div class="layout">
 
-<section>
-    <h2>About Me</h2>
-    <p>I have experience in MIS, reporting, dashboards and automation.</p>
-</section>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <img src="profile.jpg" alt="Profile" class="profile-img">
+        <h2>Vicky</h2>
+        <p class="role">MIS Executive<br>MIS Alalyst</p>
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>Microsoft Excel</li>
-        <li>SQL Server</li>
-        <li>Power BI</li>
-        <li>Google Apps Script</li>
-    </ul>
-</section>
+        <div class="info">
+            <p><strong>Location:</strong> India,Delhi</p>
+            <p><strong>Email:</strong> kvickey70@gmail.com</p>
+	    <p><strong>Contact:</strong> 9250814391</p>	
+        </div>
 
-<section>
-    <h2>Projects</h2>
-    <p>✔ Inventory Management System</p>
-    <p>✔ Google Apps Script Web App</p>
-    <p>✔ Power BI Sales Dashboard</p>
-</section>
+         <h3>Skills</h3>
 
-<section>
-    <h2>Resume</h2>
-    <a href="resume.pdf" target="_blank">Download Resume</a>
-</section>
+<div class="skill">
+    <span>Excel</span>
+    <div class="bar">
+        <div style="width:80%"></div>
+    </div>
+</div>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: yourmail@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/yourname</p>
-</section>
+<div class="skill">
+    <span>Google Sheets</span>
+    <div class="bar">
+        <div style="width:80%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>SQL</span>
+    <div class="bar">
+        <div style="width:60%"></div>
+    </div>
+</div>
+
+<div class="skill">
+    <span>Power BI</span>
+    <div class="bar">
+        <div style="width:75%"></div>
+    </div>
+</div>
+
+
+        <a href="resume.pdf" target="_blank" class="btn">Download CV</a>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+        <section class="hero">
+            <h1>My Professional Work</h1>
+            <p>
+                I build reporting systems, dashboards, and automation
+                solutions to improve business efficiency.
+            </p>
+            <a href="#projects" class="btn primary">Explore Now</a>
+        </section>
+
+        <section class="stats">
+            <div><strong>3+</strong><span>Years Experience</span></div>
+            <div><strong>5+</strong><span>Projects</span></div>
+            <div><strong>5+</strong><span>Dashboards</span></div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Inventory Management System</h3>
+                    <p>
+                        Automated inventory tracking using Google Sheets
+                        and Apps Script.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Power BI Dashboard</h3>
+                    <p>
+                        Management dashboards with KPIs, slicers, and trends.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Custom Data Web App</h3>
+                    <p>
+                        Web-based data collection replacing manual forms.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</div>
 
 </body>
-
 </html>
-
